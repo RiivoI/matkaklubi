@@ -8,11 +8,11 @@ import { Todo } from "../types";
 export const TodoList: React.FC = () => {
   const { data: todos, error } = useTodos();
 
-  if (error != null) return <div>Error loading todos...</div>;
-  if (todos == null) return <div>Loading...</div>;
+  if (error != null) return <div>Viga ülesannete laadimisel...</div>;
+  if (todos == null) return <div>Laadimine...</div>;
 
   if (todos.length === 0) {
-    return <div className={styles.emptyState}>Try adding a todo ☝️️</div>;
+    return <div className={styles.emptyState}>Lisa mõni ülesanne ☝️️</div>;
   }
 
   return (
@@ -58,7 +58,7 @@ const AddTodoInput = () => {
     >
       <input
         className={styles.input}
-        placeholder="Buy some milk"
+        placeholder="Osta 3 pakki piima"
         value={text}
         onChange={e => setText(e.target.value)}
       />
