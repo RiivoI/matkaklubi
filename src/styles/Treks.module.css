@@ -1,0 +1,40 @@
+.pais {
+    background-image: url("../../public/Hills.png");
+    height: 778px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 32px;
+    padding-left: 72px;
+    padding-right: 80px;
+}
+
+.matkad {
+    display: flex;
+
+}
+
+.matk {
+    
+    padding: 0 0 20px 0;
+}
+
+.pildiKonteiner {
+    width: 300px;
+    height: 200px;
+    position: relative;
+}
+
+.jalus {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 56.31px;
+    padding-right: 47.3px;
+    align-items: center;
+    background: #F3F3F3 0% 0% no-repeat padding-box;
+    height: 276px;
+    margin-left: 56px;
+    margin-right: 57px;
+    padding-left: 56px;
+    margin-bottom: 60px;
+}
